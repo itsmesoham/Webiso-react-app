@@ -124,16 +124,16 @@ h1 {
     display: flex;
     width: 45rem;
     margin: 10px 0 0 140px;
-    gap: 3.5rem;
 }
 
 .boxes {
     display: contents;
 }
 
-/* .box1 {
-    margin-right: 0px;
-} */
+.box1 {
+    margin-right: 30px;
+}
+
 
 .box1Content{
     margin-top: -10px;
@@ -147,11 +147,11 @@ span {
 p {
     color: #a3a3a3c6;
     font-size: 17px;
-    gap: 10px;
+    margin-right: 10px;
 }
 
 .box2 {
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .box2Content{
@@ -193,7 +193,6 @@ h2{
 
 
 .name{
-    /* margin: none; */
     padding: none;
 }
 
