@@ -1,0 +1,389 @@
+/* Banner Section */
+
+.banner {
+    background: radial-gradient(circle, rgba(36, 48, 67, 0.079) 1%, rgba(91, 76, 53, 0.048) 10%),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.704), rgba(0, 0, 0, 0.638)),
+    url('../assets/images/banner-image.jpg') no-repeat center center/cover;
+    /* filter: grayscale(100%); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
+.bannerContent {
+    position:absolute;
+    top: 30%;
+    width: 540px;
+  }
+  
+.bannerTitle {
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+
+.gradTitle {
+    font-size: 3.6rem;
+    background: linear-gradient(to right, #ffffff -4%,#7DCFFF 12%, #71ECB6, #BAFE6D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bannerSubtitle {
+    font-size: 1.055rem;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+  }
+  
+.bannerButtons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+  
+.bannerButton {
+    padding: 15px 25px;
+    font-size: 17px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.bannerButton.primaryButton {
+    background-color: #71ECB6;
+    color: #000000;
+}
+  
+.bannerButton.primaryButton:hover {
+    background-color: #BAFE6D;
+}
+  
+.bannerButton.secondaryButton {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+  
+.bannerButton.secondaryButton:hover {
+    background-color: #BAFE6D;
+    border: 1px solid ;
+    color: #000;
+}
+  
+/* Responsive Design */
+@media (max-width: 768px) {
+.banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 10px 0px 0px;
+}
+  
+.bannerContent {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+  
+.bannerButtons {
+    justify-content: center;
+}
+  
+.bannerTitle {
+    font-size: 2rem;
+  }
+
+.bannerSubtitle {
+    font-size: 1.2rem;
+  }
+
+.bannerButtons {
+    flex-direction: column;
+    gap: 10px;
+}
+}
+
+/*Niche nu*/
+
+.freeconwhatwedo {
+    background-color: #151515;
+    display: flex;
+    margin-top: 70px;
+}
+
+.whatwedo {
+    display: flex;
+    width: 45rem;
+    margin: 10px 0 0 140px;
+    gap: 3.5rem;
+}
+
+.boxes {
+    display: contents;
+}
+
+/* .box1 {
+    margin-right: 0px;
+} */
+
+.box1Content{
+    margin-top: -10px;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+p {
+    color: #a3a3a3c6;
+    font-size: 17px;
+    gap: 10px;
+}
+
+.box2 {
+    margin-right: 60px;
+}
+
+.box2Content{
+    margin-top: 13px;
+}
+
+.rotatedText {
+    position: absolute;
+    top: 143%;
+    left: 57%;
+    font-size: 31px;
+    color: #71ECB6;
+    letter-spacing: 0.5px;
+    transform: rotate(-90deg);
+    transform-origin: 0px;
+}
+
+.freeCon {
+    position: absolute;
+    display: grid;
+    height: 51vh;
+    top: 86%;
+    left: 58%;
+    color: #000;
+    background-color: #fff;
+    margin-left: 4px;
+    padding: 34px;
+    border-radius: 16px;
+    /* gap: 20px; */
+}
+
+h2{
+    margin-top: 8px;
+    margin-left: 14px;
+    margin-bottom: 4px;
+    font-weight: 200;
+    font-size: 32px;
+}
+
+
+.name{
+    /* margin: none; */
+    padding: none;
+}
+
+.nameCompany {
+    display: flex;
+    margin-left: 14px;
+}
+
+input[name="name"] {
+    background-color: #2424241A;
+    width: 80%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+  
+input[name="name"]::placeholder {
+    color: #888;
+}
+
+input[name="name"]:focus {
+    color: #000;
+}
+
+input[name="company"] {
+    background-color: #2424241A;
+    width: 80%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+  
+input[name="company"]::placeholder {
+    color: #888;
+}
+
+input[name="company"]:focus {
+    color: #000;
+}
+
+.phoneEmail {
+    margin-left: 14px;
+}
+
+input[name="phone"] {
+    background-color: #2424241A;
+    width: 80%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+  
+input[name="phone"]::placeholder {
+    color: #888;
+}
+
+input[name="phone"]:focus {
+    color: #000;
+}
+
+input[name="email"] {
+    background-color: #2424241A;
+    width: 80%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+  
+input[name="email"]::placeholder {
+    color: #888;
+}
+
+input[name="email"]:focus {
+    color: #000;
+}
+
+.message-container {
+    margin-left: 14px;
+}
+
+.message {
+    background-color: #2424241A;
+    width: 90%;
+    height: 40%;
+    padding: 12px 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Arial';
+    font-size: 16px;
+    outline: none;
+}
+
+.message:focus {
+    color: #000;
+}
+
+.getAppointment {
+    margin-left: 10px;
+}
+
+input[name="appointment"] {
+    background-color: #71ECB6;
+    text-align: center;
+    width: 90%;
+    padding: 12px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 24px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+  
+input[name="appointment"]::placeholder {
+    color: #000;
+}
+
+input[name="appointment"]:hover {
+    background-color: #BAFE6D;
+}
+
+.phoneEmail {
+    display: flex;
+}
+
+/* @media (max-width: 768px) {
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box1, .box2 {
+        flex: 1 1 100%;
+    }
+
+    .nameCompany, .phoneEmail {
+        flex-direction: column;
+    }
+
+    .name, .company, .phone, .email {
+        flex: 1 1 100%;
+    }
+
+    .rotatedText {
+        transform: rotate(0deg);
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .freeCon h2 {
+        font-size: 1.5em;
+    }
+
+    .box1Content span, .box2Content span {
+        font-size: 1.2em;
+    }
+
+    .box1Content p, .box2Content p {
+        font-size: 0.9em;
+    }
+
+    .getAppointment input[type="text"] {
+        font-size: 1em;
+    }
+} */
+
+/* @media (max-width: 768px) {
+  .freeconwhatwedo {
+    flex-direction: column;
+  }
+
+  .consultation-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .rotatedText {
+    order: 2;
+  }
+} */
