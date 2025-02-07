@@ -136,8 +136,6 @@
     border-radius: 5px;
 }
 
-
-
 .mobile-menu-link {
     display: block;
     padding: 10px 20px;
@@ -184,7 +182,7 @@
 
     .mobile-menu-button {
         display: block;
-        /* margin-right: -60%; */
+        margin-right: -60%;
     }
 
     .mobile-menu {
@@ -200,6 +198,10 @@
 
     .navbar-logo img {
         height: 36px;
+    }
+
+    .mobile-menu-button{
+        margin-right: 0;
     }
 
     .navbar-cta {

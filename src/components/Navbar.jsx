@@ -166,7 +166,6 @@ const Navbar = () => {
                         ))}
                     </div>
 
-                    <div className="btns">
 
                         {/* Mobile menu button */}
                         <div className="mobile-menu-button">
@@ -181,7 +180,6 @@ const Navbar = () => {
                             </button>
                         </div>
 
-                    </div>
 
                 </div>
             </div>
