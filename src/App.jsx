@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className='App'>
       <Navbar />
-      {/* <About /> */}
+      <About />
     </div>
   )
 }

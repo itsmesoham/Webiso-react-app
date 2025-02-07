@@ -9,10 +9,10 @@ export default function About() {
         <div className='about'>
             <div className="about-left">
                 <motion.div
-                    initial={{ opacity: 0, y: -50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 1.5 }}
+                    initial={{ opacity: 0, x: -250 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    exit={{ opacity: 0, x: -10 }}
+                    transition={{ duration: 0.8, delay: 0.1 }}
                     className="about-img-left">
                     <img src={AboutImg} alt="about-img-left" />
                 </motion.div>
@@ -21,6 +21,7 @@ export default function About() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{
                         duration: 2,
+                        delay: 0.3,
                         scale: { type: "spring", visualDuration: 1, bounce: 0.1 },
                     }}
                     className="about-img-text">
